@@ -1,10 +1,10 @@
-<svg width="480" height="120" viewBox="0 0 480 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="4" y="4" width="112" height="112" rx="16" fill="hsl(213, 56%, 22%)"/>
-  <g transform="translate(22, 22) scale(3)">
+<svg width="320" height="120" viewBox="0 0 320 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="4" width="112" height="112" rx="18" fill="hsl(213, 56%, 22%)"/>
+  <g transform="translate(18, 18) scale(3)">
     <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" fill="white"/>
     <path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27" stroke="hsl(213, 56%, 22%)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   </g>
-  <text x="130" y="82" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="64" letter-spacing="-1">
+  <text x="128" y="80" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="58" letter-spacing="-1.5">
     <tspan fill="hsl(213, 56%, 22%)">Cuida</tspan><tspan fill="hsl(207, 89%, 53%)">Med</tspan>
   </text>
 </svg>
