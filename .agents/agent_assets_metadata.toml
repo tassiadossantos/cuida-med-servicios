@@ -1,0 +1,61 @@
+uploads = []
+
+[[generated]]
+id = "sLx1z7K1AOArl5eDUWGVi"
+uri = "file://artifacts/cuidados-domiciliarios/public/hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "LSYSD3DvXdRPmZlSe91Pw"
+uri = "file://artifacts/cuidados-domiciliarios/public/home-care.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "4dTBxuMBw7ZGP4228xoNw"
+uri = "file://artifacts/cuidados-domiciliarios/public/testimonial-1.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "-WMb-kthbfv4JwgHn5ngP"
+uri = "file://artifacts/cuidados-domiciliarios/public/testimonial-2.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "7gknsNsr9r8MEzx0gz5aH"
+uri = "file://artifacts/cuidados-domiciliarios/public/testimonial-3.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "SkD3jxvD8xILtENl0gpY7"
+uri = "file://artifacts/cuidados-domiciliarios/public/testimonial-4.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "RbC4tsO45G7y8h130h-oa"
+uri = "file://artifacts/cuidados-domiciliarios/public/testimonial-5.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "pxj83IboVgmykmGd79blX"
+uri = "file://artifacts/cuidados-domiciliarios/public/testimonial-6.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "wSXYah_ktTmmP9e_H0qnF"
+uri = "file://artifacts/cuidados-domiciliarios/public/testimonial-7.png"
+type = "image"
+title = "generated_image"
+
+[[outputs]]
+id = "8i0eC333ic5niwccphcng"
+uri = "file://artifacts/cuidados-domiciliarios/public/hero.jpg"
+type = "image"
+title = "professional medical caregiver home healthcare nurse smiling Mexican"
