@@ -1,17 +1,19 @@
 {
-  "name": "workspace",
-  "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {
-    "build": "pnpm run typecheck && pnpm -r --if-present run build",
-    "typecheck:libs": "tsc --build",
-    "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"@workspace/*\" --if-present run typecheck",
-    "test": "pnpm -r --filter \"@workspace/*\" --if-present run test",
-    "test:run": "pnpm -r --filter \"@workspace/*\" --if-present run test:run"
-  },
+  "name": "cuida-med-servicios",
+  "version": "1.0.0",
   "private": true,
-  "devDependencies": {
-    "prettier": "^3.8.3",
-    "typescript": "~5.9.3"
+  "scripts": {
+    "dev:frontend": "pnpm --filter cuidados-domiciliarios dev",
+    "dev:backend": "pnpm --filter api-server dev",
+    "dev": "pnpm run dev:backend & pnpm run dev:frontend",
+    "build": "pnpm --filter cuidados-domiciliarios build",
+    "build:backend": "pnpm --filter api-server build",
+    "start": "pnpm --filter api-server start",
+    "typecheck": "pnpm --filter cuidados-domiciliarios typecheck && pnpm --filter api-server typecheck",
+    "test": "pnpm --filter cuidados-domiciliarios test:run && pnpm --filter api-server test:run"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=10"
   }
 }
