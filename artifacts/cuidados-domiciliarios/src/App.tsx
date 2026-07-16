@@ -21,48 +21,50 @@ import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
+const BASE = import.meta.env.BASE_URL;
+
 const testimonials = [
   {
     name: "María Fernanda López",
     relation: "Hija de paciente",
     text: "Contratar a CuidaMed fue la mejor decisión. El trato de la enfermera hacia mi padre ha sido excepcional, muy profesional pero sobre todo humano. Nos da mucha tranquilidad saber que está en buenas manos cuando nosotros trabajamos.",
-    photo: "/testimonial-1.png"
+    photo: `${BASE}testimonial-1.png`
   },
   {
     name: "Roberto Garza",
     relation: "Esposo de paciente",
     text: "Después de la cirugía de mi esposa, necesitábamos apoyo en casa. El equipo de fisioterapia llegó puntual, siempre con protocolos de higiene muy estrictos. La recuperación ha sido más rápida de lo esperado gracias a su seguimiento clínico.",
-    photo: "/testimonial-2.png"
+    photo: `${BASE}testimonial-2.png`
   },
   {
     name: "Elena Gutiérrez",
     relation: "Paciente",
     text: "Como adulta mayor, valoro mucho mi independencia. Mi cuidadora me asiste exactamente en lo que necesito, respetando mi espacio. Es un servicio muy serio, la agencia siempre está pendiente y las valoraciones me hacen sentir segura.",
-    photo: "/testimonial-3.png"
+    photo: `${BASE}testimonial-3.png`
   },
   {
     name: "Claudia Méndez",
     relation: "Hija de paciente",
     text: "Desde el primer contacto, el equipo de CuidaMed nos transmitió seguridad. La valoración inicial fue muy completa y el plan de cuidados que diseñaron para mi mamá superó nuestras expectativas. Es una agencia que realmente cumple lo que promete.",
-    photo: "/testimonial-4.png"
+    photo: `${BASE}testimonial-4.png`
   },
   {
     name: "Andrés Torres",
     relation: "Hijo de paciente",
     text: "Me preocupaba mucho dejar a mi padre con extraños, pero desde el primer día el enfermero se ganó su confianza y la nuestra. La comunicación con la agencia es excelente, siempre nos mantienen informados sobre su evolución.",
-    photo: "/testimonial-5.png"
+    photo: `${BASE}testimonial-5.png`
   },
   {
     name: "Ernesto Villanueva",
     relation: "Paciente",
     text: "Llevo varios meses recibiendo fisioterapia en casa y la diferencia en mi movilidad es notable. El fisioterapeuta trabaja con mucha paciencia y conocimiento. Gracias a CuidaMed puedo seguir viviendo en mi hogar con dignidad.",
-    photo: "/testimonial-6.png"
+    photo: `${BASE}testimonial-6.png`
   },
   {
     name: "Carmen Reyes",
     relation: "Paciente",
     text: "Mi cuidadora es como parte de la familia. Siempre puntual, amable y muy profesional. Los médicos de mi consulta han notado lo bien que llevo mis medicamentos y mis citas. Recomiendo CuidaMed con el corazón.",
-    photo: "/testimonial-7.png"
+    photo: `${BASE}testimonial-7.png`
   }
 ];
 
@@ -256,7 +258,7 @@ export default function App() {
           {/* Doctor image pinned to right side */}
           <div className="absolute right-0 top-0 bottom-0 w-[72%] z-0 hidden md:block">
             <img
-              src="/hero.png"
+              src={`${BASE}hero.png`}
               alt="Profesional médica sonriendo"
               className="w-full h-full object-cover object-center-top"
               style={{ objectPosition: "40% top" }}
@@ -388,7 +390,7 @@ export default function App() {
                 <div className="relative">
                   <div className="aspect-square rounded-3xl overflow-hidden bg-card">
                     <img 
-                      src="/home-care.png"
+                      src={`${BASE}home-care.png`}
                       alt="Cuidadora atendiendo a paciente adulto mayor en su domicilio" 
                       className="w-full h-full object-cover"
                     />
