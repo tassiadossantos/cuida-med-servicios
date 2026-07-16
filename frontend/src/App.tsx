@@ -108,7 +108,7 @@ function TestimonialsCarousel() {
           {doubled.map((t, i) => (
             <div
               key={i}
-              style={{ width: "360px", flexShrink: 0 }}
+              style={{ minWidth: "280px", width: "360px", flexShrink: 0 }}
               onMouseEnter={() => setPaused(true)}
               onMouseLeave={() => setPaused(false)}
             >
@@ -295,13 +295,13 @@ export default function App() {
                   </Button>
                 </motion.div>
                 
-                <motion.div variants={fadeIn} className="mt-12 flex items-center gap-6 text-sm text-foreground/70 font-medium">
+                <motion.div variants={fadeIn} className="mt-12 flex flex-wrap items-center gap-4 sm:gap-6 text-sm text-foreground/70 font-medium">
                   <div className="flex items-center gap-2">
-                    <ShieldCheck className="text-secondary h-5 w-5" />
+                    <ShieldCheck className="text-secondary h-5 w-5 shrink-0" />
                     <span>Cumplimiento COFEPRIS</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Award className="text-secondary h-5 w-5" />
+                    <Award className="text-secondary h-5 w-5 shrink-0" />
                     <span>Personal Certificado</span>
                   </div>
                 </motion.div>
@@ -504,7 +504,7 @@ export default function App() {
               whileInView="visible"
               viewport={{ once: true, margin: "-100px" }}
               variants={staggerContainer}
-              className="max-w-4xl mx-auto text-center bg-white p-10 md:p-16 rounded-3xl shadow-xl border border-primary/5"
+              className="max-w-4xl mx-auto text-center bg-white p-6 sm:p-10 md:p-16 rounded-3xl shadow-xl border border-primary/5"
             >
               <motion.h2 variants={fadeIn} className="text-3xl md:text-5xl font-bold text-primary mb-6 leading-tight">
                 El bienestar de su familia merece atención profesional y de confianza.
