@@ -606,7 +606,7 @@ export default function App() {
           </div>
 
           <div className="pt-8 border-t border-white/10 text-sm text-center md:flex md:justify-between md:text-left text-primary-foreground/60">
-            <p>© 2024 CuidaMed — Asistencia Clínica Domiciliaria. Todos los derechos reservados.</p>
+            <p>© 2026 CuidaMed — Asistencia Clínica Domiciliaria. Todos los derechos reservados.</p>
             <p className="mt-2 md:mt-0">Sitio de información médica sujeto a normatividad vigente.</p>
           </div>
         </div>
